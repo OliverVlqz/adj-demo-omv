@@ -3,7 +3,7 @@ services:
     image: mysql:8
     container_name: adj-database
     environment:
-      MYSQL_ROOT_PASSWORD: michifus7
+      MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: adjdemo
 
     ports:
